@@ -6,7 +6,7 @@ purple='\e[0;35m'
 orange='\e[0;33m'
 NC='\e[0m'
 # // Exporting URL Host
-export Server_URL="raw.githubusercontent.com/annelyah23/xyz/main"
+export Server_URL="raw.githubusercontent.com/gyrogerald/xrayt/main"
 clear
 if [[ -e /usr/local/bin/xray ]]; then
      echo ""
