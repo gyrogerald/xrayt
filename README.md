@@ -60,7 +60,7 @@ sudo wget -O ./default.sh 'https://script.gegevps.com/default.sh' && sudo chmod 
 ## &#128073; Installation Link<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/tridebleng/xyz/main/setup.sh && chmod +x setup.sh && ./setup.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/gyrogerald/xrayt/main/setup.sh && chmod +x setup.sh && ./setup.sh
   ```
   
 <p align="center">
