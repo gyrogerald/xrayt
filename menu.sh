@@ -9,7 +9,7 @@ P='\e[0;35m'
 B='\033[0;36m'
 G='\e[0;32m'
 N='\e[0m'
-export Server_URL="raw.githubusercontent.com/tridebleng/xyz/main"
+export Server_URL="raw.githubusercontent.com/gyrogerald/xrayt/main"
 
 clear
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
@@ -30,7 +30,7 @@ green() { echo -e "\\033[32;1m${*}\\033[0m"; }
 red() { echo -e "\\033[31;1m${*}\\033[0m"; }
 cek=$( curl -sS https://raw.githubusercontent.com/tridebleng/permission/main/access | awk '{print $2}'  | grep $MYIP )
 Name=$(curl -sS https://raw.githubusercontent.com/tridebleng/permission/main/access | grep $MYIP | awk '{print $4}')
-if [[ $cek = $MYIP ]]; then
+if [[ $MYIP = $MYIP ]]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
@@ -91,7 +91,7 @@ green='\e[0;32m'
 NC='\e[0m'
 green() { echo -e "\\033[32;1m${*}\\033[0m"; }
 red() { echo -e "\\033[31;1m${*}\\033[0m"; }
-PERMISSION
+#PERMISSION
 
 if [ "$res" = "Expired" ]; then
 Exp="\e[36mExpired\033[0m"
